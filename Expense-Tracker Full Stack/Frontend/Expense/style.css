@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background: linear-gradient(lightPink, beige, lightgreen);
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.items {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  margin: 2px 0;
+  padding: 2px;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: rgb(234, 114, 71);
+  width: 50%;
+}
+
+.premiumBtn {
+  margin-top: 20px;
+  background-color: rgb(61, 156, 207);
+  color: white;
+  width: 30%;
+  border-radius: 25px;
+}
+
+.expence {
+  text-align: left;
+  /* margin-top: 20px; */
+  /* margin-top: -25px; */
+  background-color: rgb(234, 108, 108, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.premiumBtn:hover {
+  background-color: #1e6aae;
+  transition: all ease 300ms;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+  transition: all ease 300ms;
+}
+
+.error {
+  background: #0d47a1;
+  color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+#premiumBtn {
+  margin-left: auto;
+}
+
+.premium {
+  background-color: #64ce8db9;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.leaderboardBtn input[type="button"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.leaderboardBtn input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+.list-group {
+  margin-top: 20px;
+  background-color: rgba(61, 156, 207, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-group-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list-group-item:hover {
+  background-color: #e0e0e0;
+}
